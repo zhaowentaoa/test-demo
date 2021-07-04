@@ -152,6 +152,7 @@ int v4l2_init()
         printf("numerator:%d\ndenominator:%d\n",stream_para.parm.capture.timeperframe.numerator,stream_para.parm.capture.timeperframe.denominator);
     }
     return TRUE;
+    printf("\n");
 }
 
 
